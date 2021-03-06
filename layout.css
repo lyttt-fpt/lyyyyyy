@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+#page{
+    max-width: 1000px ;
+    margin: 0 auto ;
+    box-shadow: 0 0 10px #000;     
+}
+#page nav{  
+    nav-left: auto;
+    font-variant: small-caps;
+    line-height: 40px;
+    background-color: orangered;
+    color: white;
+    text-align: center;  
+}
+#ly article{
+    min-height: 400px;
+    width: 60%;
+    background-color: white;
+    float: left;
+}
+#ly aside{
+    min-height:400px;
+    width:50%;
+    float:right;
+}
+#page article {
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+#page aside{
+    min-height:400px;
+    width:25%;
+    float:right;
+}
+
+#page footer{   
+    border-top:5px double black;
+    line-height:50px;
+    background-color: lightslategrey;
+    text-align:center;
+    font-variant:small-caps;
+    clear:both;
+}
+.menu>ul>li{
+    display:inline-block;
+    position:relative;
+    
+}
+.menu>ul>li>a{
+    display:block;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    color: white;
+    padding:0 10px ;
+    line-height:40px;
+}
+.menu>ul{
+    padding:0px;
+    margin: 0px;
+    list-style:none;
+    border-radius:3px;
+    background-color: gray;
+    text-align:center;
+}
+.menu>ul>li>a:hover{
+    color: black
+}
+.menu ul ul a{
+    display:block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+    text-align: left;
+}
+.menu ul ul{
+    position:absolute;
+    display:none;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    width:200px;
+    background-color:white;
+    box-shadow:0 0 1px gray;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+  background-color:orangered;
+  color: white;
+  
+}
+.vmenu{
+    padding:0px;
+    margin:4px;
+    list-style:none;
+    border-radius:2px;
+    box-shadow:0 0 2px black;
+}
+
+.vmenu a{
+    background: url('img.html/hover.jpg') no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted black;
+    color:black;
+    font-variant: small-caps;
+    text-decoration: none;
+    padding-left: 25px;
+    line-height: 30px;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover{
+    background: url('img.html/buomm.jpg') no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: grey;
+    color: rgb(14, 13, 13);
+    font-weight: bolder;
+}
+header img {
+    width:100%;
+    text-align: center;
+}
+header .container{
+    background-image: url('img.html/logo1.png');
+    background-size: 100% 100%;
+    height: 328px;
+    position: relative;
+}
+.container>h1{
+    color: white;
+    
+    width: 300px;
+    padding: 0px;
+    margin: 0px;
+}
+.container>h3{
+    color: white (217, 255, 0);
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    position: absolute;
+    left:0px;
+    font-size: larger;
+    color:white;
+    bottom: 7px;
+    top:0px;
+    text-shadow: 0 0 10px white;
+    font-variant: normal;
+    height: 45px;
+    padding: 15px;
+    margin: 0px;
+}
+
+.top-right{
+    position: absolute ;
+    top:0px;
+    right: 175px;
+    border-bottom-left-radius: 30px;
+    background-color: white;
+   
+    height: 25px;
+}
+
+.col-25{
+    width:25%;
+    float:left;
+}
+
+
+
+
+.prod>.price{
+    position: relative;
+    bottom:5px;
+    font-family:Impact, "Arial Narow Bold" , sans-serif;
+    font-size:13px;
+    color:black;
+    
+}
+.prod{
+    border-radius:10px;
+    box-shadow:0 0 5px gray;
+    margin:5px;
+    padding:5px;
+    text-align:center;
+    position:relative;
+}
+.abcd{
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    box-shadow: white;
+}
+.abcd>.name{
+    font-variant:normal;
+    color: black;
+    font-size: 18px;
+}
+.abcd>.image{
+    max-width:100%;
+    height:270px;
+    margin-bottom:25px;
+}
+.prod>.name{
+    font-variant:normal;
+    color: black;
+    font-size: 16px;
+}
+.prod .image{
+    max-width:100%;
+    height:160px;
+    margin-bottom:14px;
+}
+.prod>.price{
+    position: relative;
+    bottom:5px;
+    font-family:Impact, "Arial Narow Bold" , sans-serif;
+    font-size:13px;
+    color:black;
+    
+}
+.prod>.price del{
+    color: gray;
+}
+.prod>.icons{
+    position:absolute;
+    right:5px;
+    bottom:5px; width:25px;
+}
+.prod>.new-icon{
+    position:absolute;
+    top:0px;
+    left:0px;     
+}
+.prod>.icon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+em{
+    font-variant: small-caps;
+    font-size:20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+  
+strong{
+    color:black;
+}
+em.about1{
+    color:black;
+    font-variant: normal;
+}
+em.tt1{
+    color:black;
+    font-variant: normal;
+}
+em.tt2{
+    color:black;
+    font-variant: normal;
+}
+em.tt3{
+    color:black;
+    font-variant: normal;
+}
+em.tt4{
+    color:black;
+    font-variant: normal;
+}
+
+*{margin:  auto;}
+
+    .inWidth{width:920px;}
+    .textStyle{
+        font-variant: normal; font-weight: bold; font-size: 15px; }
+div#myForm{
+        width: 920px;border: thin solid gray; 
+}
+.main{
+    display: flex;
+    align-content: stretch;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.img{
+    
+    float: left;
+    margin-bottom: 20px;
+}
+.noidung{
+    width: 40%;
+    float: right;
+    
+    
+}
+.ten{
+    color: black;
+    font-weight: bold;
+}
+.ban-tin{
+    clear: both;
+}
+
+
+    
+
+
+  
+  
+  
+
+ 
+
+
+
+
+
+
+ 
